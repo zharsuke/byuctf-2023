@@ -1,0 +1,4 @@
+using hash-identifier to identify hash and the result is md5.
+hash message using hashcat
+hashcat -m 0 006_1.txt /usr/share/wordlists/rockyou.txt
+fb77dc5534f88d45fa2985d92a68c60c:brittishhottie

